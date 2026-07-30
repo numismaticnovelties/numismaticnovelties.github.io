@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(241, 241, 241);
+}
+div{
+    background-color: white;
+}
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 15px;
+    background-color: lightblue;
+    height:30px;
+    *:not(img){
+        position: relative;
+        bottom:15px;
+    }
+}
+a:link,a:visited{
+    color:black;
+}
+a:hover,a:active,a:focus{
+    color:blue;
+}
+#content{
+    position: absolute;
+    top:60px;
+}
+.business-name{
+    font-size: 2em;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.left img{
+    width:50%;
+}
+#content img{
+    width:50%;
+}
+@media (width >= 750px) {
+    /*Not mobile*/
+.left{
+    width:80%;
+    position: relative;
+    left:10%;
+    h1{
+        float:left;
+    }
+    img{
+        float:right;
+        width:50%;
+        position: relative;
+    }
+}
+}
+body.Error404{
+    h1{
+        font-family: monospace;
+    }
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+}
