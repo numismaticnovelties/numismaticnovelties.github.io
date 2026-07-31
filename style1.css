@@ -39,7 +39,6 @@ h1{
 @media (width >= 750px) {
     /*Not mobile*/
 .left{
-    width:80%;
     position: relative;
     left:10%;
     h1{
@@ -52,16 +51,15 @@ h1{
     }
 }
 .right{
-    width:80%;
     position: relative;
     left:10%;
     img{
         float:left;
+        width:50%;
+        position: relative;
     }
     h1{
         float:right;
-        width:50%;
-        position: relative;
     }
 }
 }
