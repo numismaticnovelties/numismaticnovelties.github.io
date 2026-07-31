@@ -47,20 +47,21 @@ nav{
         opacity:0;
         position:fixed;
         left:0;
-        right:0;
+        top:0;
         z-index: -1000;
         transition: ease 1s all;
         background-color: lightblue;
+        width:100%;
+        height:100%;
+        display:block;
+        *{
+            display:block;
+            padding:1em;
+        }
     }
     #status:checked + nav{
         opacity: 1;
         z-index: 2000;
-        width:100%;
-        height:100%;
-        *{
-            display:block;
-            padding:50%;
-        }
     }
 }
 @media (width >= 750px) {
