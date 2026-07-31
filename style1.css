@@ -40,7 +40,6 @@ h1{
     /*Not mobile*/
 .left{
     position: relative;
-    left:10%;
     h1{
         float:left;
     }
@@ -52,7 +51,6 @@ h1{
 }
 .right{
     position: relative;
-    left:10%;
     img{
         float:left;
         width:50%;
