@@ -1,8 +1,6 @@
 body{
-    background-color: rgb(241, 241, 241);
-}
-div{
-    background-color: white;
+    background-color: black;
+    color:white;
 }
 header{
     position:fixed;
@@ -63,4 +61,7 @@ body.Error404{
         font-family: 'Times New Roman', Times, serif;
     }
     
+}
+a[href^="https://numismaticnovelties.github.io"]::after{
+    content:"⎋";
 }

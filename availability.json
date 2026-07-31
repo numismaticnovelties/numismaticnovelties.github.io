@@ -1,0 +1,30 @@
+{
+    "dime-bookmark":{
+        "status":"in stock",
+        "available":7
+    },
+    "nickel-bookmark":{
+        "status":"in stock",
+        "available":8
+    },
+    "1776-2026-no-coin":{
+        "status":"in stock",
+        "available":15
+    },
+    "stars-quarter":{
+        "status":"in stock",
+        "available":9
+    },
+    "dime-keychain":{
+        "status":"in stock",
+        "available":10
+    },
+    "nickel-keychain":{
+        "status":"in stock",
+        "available":10
+    },
+    "stars-quarter-bookmark":{
+        "status":"in stock",
+        "available":9
+    }
+}
