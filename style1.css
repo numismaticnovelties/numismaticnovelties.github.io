@@ -25,7 +25,7 @@ a:hover,a:active,a:focus{
     font-size: 2em;
 }
 h1{
-    font-family:serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .left img{
     width:50%;
@@ -36,29 +36,65 @@ h1{
 #content img{
     width:50%;
 }
+nav{
+    display:none;
+}
+#status{
+    display:none;/*Hide status storing checkbox*/
+}
+@media (width <= 750px) {
+    #status + nav{
+        opacity:0;
+        position:fixed;
+        left:0;
+        right:0;
+        z-index: -1000;
+        transition: ease 1s all;
+        background-color: lightblue;
+    }
+    #status:checked + nav{
+        opacity: 1;
+        z-index: 2000;
+        width:100%;
+        height:100%;
+        *{
+            display:block;
+            padding:50%;
+        }
+    }
+}
 @media (width >= 750px) {
     /*Not mobile*/
 .left{
     position: relative;
-    h1{
-        float:left;
-    }
+    padding-bottom:40px;
+    padding-top:40px;
+    display:flex;
     img{
-        float:right;
         width:50%;
         position: relative;
     }
 }
 .right{
     position: relative;
+    padding-bottom:40px;
+    padding-top:40px;
+    display:flex;
+   h1{
+       position:relative;
+       left:55%;
+   }
     img{
-        float:left;
         width:50%;
         position: relative;
+        right:50%;
     }
-    h1{
-        float:right;
-    }
+}
+#options{
+    display:none;
+}
+nav{
+    display:inline;
 }
 }
 body.Error404{
