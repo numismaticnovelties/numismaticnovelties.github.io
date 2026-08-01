@@ -49,7 +49,7 @@ nav{
         position:fixed;
         left:0;
         top:0;
-        z-index: -1000;
+        z-index: -1;
         transition: ease 1s all;
         background-color: lightblue;
         width:100%;
@@ -58,14 +58,22 @@ nav{
         *{
             display:block;
             padding:1em;
+            font-size: x-large;
         }
     }
     #status:checked + nav{
         opacity: 1;
         z-index: 100000;
+        *{
+            z-index: 100001;
+        }
+    }
+    header img{
+        display:none;
     }
     #options{
-        z-index: 100001;
+        z-index: 100002;
+        display:inline;
     }
 }
 @media (width >= 750px) {
