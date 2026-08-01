@@ -132,7 +132,7 @@ body.Error404{
     }
     
 }
-a:not([href^="https://numismaticnovelties.github.io"])::after{
+a[href^="https://numismaticnovelties.github.io"]::after{
     content:"⎋";
     width:1em;
     height:1em;
