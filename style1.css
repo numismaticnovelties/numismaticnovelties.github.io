@@ -21,6 +21,9 @@ a:link,a:visited{
 a:hover,a:active,a:focus{
     color:blue;
 }
+a:local-link{
+    color:gray;
+}
 #content{
     position: absolute;
     top:60px;
