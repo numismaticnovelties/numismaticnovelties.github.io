@@ -107,7 +107,8 @@ nav{
     display:flex;
    h1{
        position:relative;
-       left:55%;
+       left:53%;
+       width:50%;
    }
     img{
         width:50%;
