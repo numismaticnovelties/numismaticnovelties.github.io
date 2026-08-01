@@ -12,6 +12,9 @@ header{
         bottom:15px;
     }
 }
+html{
+    overflow-x: hidden;
+}
 a:link,a:visited{
     color:black;
 }
