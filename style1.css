@@ -74,6 +74,9 @@ nav{
     header img{
         display:none;
     }
+    header #options img{
+        display:inline;
+    }
     #options{
         z-index: 100002;
         display:inline;
