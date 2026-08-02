@@ -165,3 +165,10 @@ a[href^="https://numismaticnovelties.github.io"]::after{
     height:1em;
     display:inline-block;
 }
+table{
+    border-collapse: collapse;
+}
+th,td{
+    border:1px solid black;
+    
+}
