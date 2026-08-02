@@ -155,5 +155,13 @@ table{
 }
 th,td{
     border:1px solid black;
+    text-align:center;
+    padding:3px;
+}
+th{
+    background-color:lightgray;
+}
+th:first-child{
+    width:350px;
     
 }

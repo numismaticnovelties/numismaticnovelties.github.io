@@ -31,7 +31,6 @@
         </table>
         <script>
             let availability;
-            let ready = false;
             fetch('https://numismaticnovelties.github.io/availability.json')
             .then(response => {
                 if (!response.ok) {
@@ -51,11 +50,10 @@
             .catch(error => console.error('Fetch error:', error));
             function display(fetchedavailability){
                 availability = fetchedavailability;
-                ready=true;
                 availability.keys.forEach((value)=>{
                     let row = document.createElement('tr');
                     let item = availability[value];
-                    row.innerHTML = `<th>${item.name}</th><td>${item.status}</td><td>${item.available}</td>`;
+                    row.innerHTML = `<th>${item.name}</th><td data-status="${item.status}">${item.status}</td><td>${item.available}</td>`;
                     document.getElementById('table').appendChild(row);
                 })
             }
