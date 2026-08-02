@@ -18,6 +18,6 @@ let ready = false;
             .catch(error => console.error('Fetch error:', error));
             function display(fetchedData){
                 data = fetchedData;
-                document.getElementById('nav').innerHTML = data;
                 ready=true;
+                document.getElementById('nav').innerHTML = data;
             }
