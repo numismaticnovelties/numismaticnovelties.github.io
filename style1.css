@@ -16,19 +16,18 @@ header{
     }
 }
   .left,.right {
-    transform: translateY(50px);
     animation: fadeIn 1s linear;
     animation-timeline: scroll();
   }
   @keyframes fadeIn {
     from{
-        color:darkblue;
+        opacity:0;
     }
-    50%{
-        color:black;
+    10%,90%{
+        opacity:1;
     }
     to {
-        color:darkgreen
+        opacity:0;
     }
   }
 html{
