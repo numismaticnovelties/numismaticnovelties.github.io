@@ -108,9 +108,9 @@ nav{
     padding-bottom:40px;
     padding-top:40px;
     display:flex;
-    img{
+    *{
         width:50%;
-        position: relative;
+        height:fit-content;
     }
 }
 .right{
@@ -118,15 +118,9 @@ nav{
     padding-bottom:40px;
     padding-top:40px;
     display:flex;
-   h1{
-       position:relative;
-       left:53%;
-       width:50%;
-   }
-    img{
+    *{
         width:50%;
-        position: relative;
-        right:50%;
+        height:fit-content;
     }
 }
 #options{
