@@ -72,9 +72,10 @@ nav{
     height:300px;
 }
 @media (width <= 750px) {
-    .business-name{
-        position: relative;
-        bottom:53px;
+    #options{
+        position: fixed;
+        right: 0;
+        top: 0;
     }
     #status + nav{
         opacity:0;
