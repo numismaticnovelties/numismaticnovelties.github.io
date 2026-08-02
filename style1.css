@@ -119,7 +119,7 @@ nav{
     display:flex;
     *{
         width:50%;
-        height:fit-content;
+        height:intrinsic;
     }
 }
 .right{
@@ -130,6 +130,9 @@ nav{
     *{
         width:50%;
         height:fit-content;
+        @supports (height:intrinsic){
+            height:intrinsic;
+        }
     }
 }
 #options{
