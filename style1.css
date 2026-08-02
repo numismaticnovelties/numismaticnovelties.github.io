@@ -50,15 +50,15 @@ nav{
     display:none;
 }
 #status{
-    display:none;/*Hide status storing checkbox*/
+    display:none;
 }
 .left,.right{
-
+    height:300px;
 }
 @media (width <= 750px) {
-        header :not(img){
+    .business-name{
         position: relative;
-        bottom:0;
+        bottom:53px;
     }
     #status + nav{
         opacity:0;
