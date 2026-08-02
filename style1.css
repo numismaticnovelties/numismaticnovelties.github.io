@@ -84,10 +84,6 @@ nav{
             z-index: 100001;
         }
     }
-    header:not(img){
-        position: relative;
-        bottom:0px;
-    }
     header img{
         display:none;
     }
@@ -100,6 +96,9 @@ nav{
     }
     .business-name{
         font-size: 1.5em;
+    }
+    #content img {
+        width: 100%;
     }
 }
 @media (width >= 750px) {
