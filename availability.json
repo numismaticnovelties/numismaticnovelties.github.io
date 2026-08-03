@@ -34,6 +34,11 @@
         "available":9,
         "name":"Liberty Bell Quarter Keychain"
     },
+    "round-keychain-quarter":{
+        "status":"in stock",
+        "available":20,
+        "name":"Round Quarter Keychain"
+    },
     "keys":[
         "dime-bookmark",
         "nickel-bookmark",
@@ -42,6 +47,7 @@
         "stars-quarter",
         "dime-keychain",
         "nickel-keychain",
-        "stars-quarter-keychain"
+        "stars-quarter-keychain",
+        "round-keychain-quarter"
     ]
 }

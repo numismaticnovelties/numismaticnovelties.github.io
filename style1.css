@@ -54,6 +54,7 @@ nav{
 }
 .left,.right{
     height:300px;
+    border-bottom:2px solid black;
 }
 @media (width <= 750px) {
     #options{
@@ -175,10 +176,16 @@ th:first-child{
     width:350px;
 }
 td[data-status="in stock"]::after{
-    position:relative;
-    bottom:1em;
+    position:absolute;
     pointer-events: none;
     z-index: 10;
     content:"Available at the next market";
-    width:100%;
+    width:fit-content;
+    white-space:nowrap;
+    background-color: lightblue;
+    opacity:0;
+    transition:opacity 1s ease;
+}
+td[data-status="in stock"]:hover::after{
+    opacity:1;
 }
