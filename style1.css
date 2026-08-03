@@ -55,6 +55,7 @@ nav{
 .left,.right{
     height:300px;
     border-bottom:2px solid black;
+    width:100%;
 }
 @media (width <= 750px) {
     #options{
@@ -258,3 +259,7 @@ body{
     background-color: aliceblue;
     scrollbar-color: black,transparent;
 }
+.left p,.right p{
+        font-size:large;
+        height:100%;
+    }
