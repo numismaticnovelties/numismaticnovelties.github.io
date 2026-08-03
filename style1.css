@@ -226,12 +226,12 @@ td[data-status="Development"]::after{
     font-size: x-large;
     position:relative;
     top:1em;
-    width:100px;
+    width:20%;
     right:1.5em;
     display:inline-block;
 }
 .big{
-    width:100px;
+    width:20%;
     position:relative;
     left:50px;
     display:inline-block;
@@ -252,4 +252,9 @@ td[data-status="Development"]::after{
     height:3em;
     background-color: black;
     color:white;
+}
+
+body{
+    background-color: aliceblue;
+    scrollbar-color: black,transparent;
 }
