@@ -53,6 +53,7 @@
         "dime-keychain",
         "nickel-keychain",
         "stars-quarter-keychain",
-        "round-keychain-quarter"
+        "round-keychain-quarter",
+        "round-keychain-dime"
     ]
 }
