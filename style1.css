@@ -175,6 +175,9 @@ th{
 th:first-child{
     width:350px;
 }
+td[data-status]:hover::after,td[data-status]:active:after{
+    opacity:1;
+}
 td[data-status="in stock"]::after{
     position:absolute;
     pointer-events: none;
@@ -182,12 +185,20 @@ td[data-status="in stock"]::after{
     content:"Available at the next market";
     width:fit-content;
     white-space:nowrap;
-    background-color: lightblue;
+    background-color: lightgreen;
     opacity:0;
     transition:opacity 1s ease;
 }
-td[data-status="in stock"]:hover::after,td[data-status="in stock"]:active:after{
-    opacity:1;
+td[data-status="supply low"]::after{
+    position:absolute;
+    pointer-events: none;
+    z-index: 10;
+    content:"Still available at the next market, but hurry to attain a product.";
+    width:fit-content;
+    white-space:nowrap;
+    background-color: yellow;
+    opacity:0;
+    transition:opacity 1s ease;
 }
 td[data-status="Production"]::after{
     position:absolute;
@@ -196,12 +207,20 @@ td[data-status="Production"]::after{
     content:"Currently Being Produced";
     width:fit-content;
     white-space:nowrap;
-    background-color: lightblue;
+    background-color:slateblue;
     opacity:0;
     transition:opacity 1s ease;
 }
-td[data-status="Production"]:hover::after,td[data-status="Production"]:active:after{
-    opacity:1;
+td[data-status="Development"]::after{
+    position:absolute;
+    pointer-events: none;
+    z-index: 10;
+    content:"In development, might be ready soon!";
+    width:fit-content;
+    white-space:nowrap;
+    background: linear-gradient(yellow,red);
+    opacity:0;
+    transition:opacity 1s ease;
 }
 .big+*{
     font-size: x-large;

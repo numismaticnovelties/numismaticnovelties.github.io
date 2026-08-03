@@ -5,7 +5,7 @@
         "name":"Emerging Liberty Dime and Eagle Bookmark"
     },
     "nickel-bookmark":{
-        "status":"in stock",
+        "status":"supply low",
         "available":8,
         "name":"Nickel Bookmark"
     },
@@ -15,7 +15,7 @@
         "name":"America 250 Bookmark without coin"
     },
     "stars-quarter":{
-        "status":"in stock",
+        "status":"supply low",
         "available":9,
         "name":"Liberty Bell Quarter Bookmark"
     },
@@ -30,7 +30,7 @@
         "name":"Nickel Keychain"
     },
     "stars-quarter-keychain":{
-        "status":"in stock",
+        "status":"supply low",
         "available":9,
         "name":"Liberty Bell Quarter Keychain"
     },
@@ -38,6 +38,11 @@
         "status":"in stock",
         "available":20,
         "name":"Round Quarter Keychain"
+    },
+    "round-keychain-dime":{
+        "status":"Development",
+        "available":0,
+        "name":"Round Dime Keychain"
     },
     "keys":[
         "dime-bookmark",
