@@ -54,7 +54,7 @@
                 data2.keys.forEach((value)=>{
                     let row = document.createElement('tr');
                     let item = data2[value];
-                    row.innerHTML = `<th>${item.name}</th><td>${item.status}</td><td>${item.available}</td>`;
+                    row.innerHTML = `<th>${item.name}</th><td data-status="${item.status}">${item.status}</td><td>${item.available}</td>`;
                     document.getElementById('table').appendChild(row);
                 })
             }

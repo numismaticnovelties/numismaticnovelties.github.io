@@ -119,7 +119,10 @@ nav{
     display:flex;
     *{
         width:50%;
-        height:intrinsic;
+        height:fit-content;
+        @supports (height:intrinsic){
+            height:intrinsic;
+        }
     }
 }
 .right{
@@ -170,5 +173,12 @@ th{
 }
 th:first-child{
     width:350px;
-
+}
+td[data-status="in stock"]::after{
+    position:relative;
+    bottom:1em;
+    pointer-events: none;
+    z-index: 10;
+    content:"Available at the next market";
+    width:100%;
 }
