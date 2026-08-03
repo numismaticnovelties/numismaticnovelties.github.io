@@ -59,8 +59,6 @@
 
       function updateDisplay(months, days, hours, minutes, seconds, miliseconds) {
         let status = []
-        document.getElementById("months").innerHTML = months;
-        status.push("months:", months);
         document.getElementById("days").innerText = days;
         status.push("days:", days);
         document.getElementById("hours").innerText = hours;
@@ -88,6 +86,9 @@
       window.addEventListener("DOMContentLoaded", () => {
         setInterval(updateCounter, 5);
       });
+      function redirect() {
+        
+      }
     </script>
     <script src="/navigation.js"></script>
 </body>
