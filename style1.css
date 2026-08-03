@@ -186,11 +186,36 @@ td[data-status="in stock"]::after{
     opacity:0;
     transition:opacity 1s ease;
 }
-td[data-status="in stock"]:hover::after{
+td[data-status="in stock"]:hover::after,td[data-status="in stock"]:active:after{
     opacity:1;
 }
-.big{
+td[data-status="Production"]::after{
+    position:absolute;
+    pointer-events: none;
+    z-index: 10;
+    content:"Currently Being Produced";
+    width:fit-content;
+    white-space:nowrap;
+    background-color: lightblue;
+    opacity:0;
+    transition:opacity 1s ease;
+}
+td[data-status="Production"]:hover::after,td[data-status="Production"]:active:after{
+    opacity:1;
+}
+.big+*{
     font-size: x-large;
+    position:relative;
+    top:1em;
+    width:100px;
+    right:1.5em;
+    display:inline-block;
+}
+.big{
+    width:100px;
+    position:relative;
+    left:50px;
+    display:inline-block;
 }
 @keyframes spin {
     0%,100%{
@@ -206,4 +231,6 @@ td[data-status="in stock"]:hover::after{
 #countdown{
     width:100%;
     height:3em;
+    background-color: black;
+    color:white;
 }
