@@ -224,12 +224,12 @@ td[data-status="Development"]::after{
     transition:opacity 1s ease;
 }
 .big+*{
-    font-size: x-large;
+    font-size: large;
     position:relative;
-    top:1em;
     width:20%;
     right:1.5em;
     display:inline-block;
+    
 }
 .big{
     width:20%;
@@ -263,3 +263,17 @@ body{
         font-size:large;
         height:100%;
     }
+#content{
+    width:100%;
+}
+/* custom element 'price' */
+price{
+    font-family: serif;
+}
+price::before{
+    content:"$";
+    display:inline;
+    line-height: 0.5em;
+    position:relative;
+    bottom:0.5em;
+}

@@ -1,0 +1,54 @@
+h1{
+    font-family:'Times New Roman', Times, serif;
+    transition:cubic-bezier(0.18, 0.89, 0.42, 1.06) all 3s;
+    position: relative;
+    opacity:1;
+    @starting-style{
+        transform: translateX(100%);
+        opacity:0;
+    }
+}
+p{
+        transition:cubic-bezier(0.18, 0.89, 0.42, 1.06) all 4s;
+        transform: translateX(100%);
+        opacity:0;
+}
+p.found{
+    position: relative;
+    opacity:1;
+    transform:none;
+    transition:cubic-bezier(0.18, 0.89, 0.42, 1.06) all 4s;
+    @starting-style{
+        transform: translateX(100%);
+        opacity:0;
+    }
+}
+code{
+    background-color:lightgray;
+    color:black;
+    border-radius: 0.3em;
+    border: 1px solid black;
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse{
+    0%,100%{
+        color:black;
+    }
+    50%{
+        color:darkred;
+    }
+}
+a{
+    border:1px solid black;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+ul li{
+    opacity:1;
+    transform:none;
+    transition:cubic-bezier(0.18, 0.89, 0.42, 1.06) all 5s;
+    @starting-style{
+        transform: translateX(100%);
+        opacity:0;
+    }
+}
