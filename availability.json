@@ -1,82 +1,94 @@
 {
-    "dime-bookmark":{
+    "1":{
         "status":"in stock",
         "available":19,
         "name":"Emerging Liberty Dime and Eagle Bookmark"
     },
-    "nickel-bookmark":{
+    "2":{
         "status":"supply low",
         "available":8,
         "name":"Nickel Bookmark"
     },
-    "1776-2026-no-coin":{
+    "3":{
         "status":"in stock",
         "available":15,
         "name":"America 250 Bookmark without coin"
     },
-    "stars-quarter":{
+    "4":{
         "status":"supply low",
         "available":9,
         "name":"Liberty Bell Quarter Bookmark"
     },
-    "dime-keychain":{
+    "5":{
         "status":"in stock",
         "available":10,
         "name":"Emerging Liberty Dime and Eagle Keychain"
     },
-    "nickel-keychain":{
+    "6":{
         "status":"in stock",
         "available":10,
         "name":"Nickel Keychain"
     },
-    "stars-quarter-keychain":{
+    "7":{
         "status":"supply low",
         "available":9,
         "name":"Liberty Bell Quarter Keychain"
     },
-    "round-keychain-quarter":{
+    "8":{
         "status":"in stock",
         "available":20,
         "name":"Round Quarter Keychain"
     },
-    "round-keychain-dime":{
+    "9":{
         "status":"Development",
         "available":0,
         "name":"Round Dime Keychain"
     },
-    "no-dime-eagle":{
+    "a":{
         "status":"Development",
         "available":0,
         "name":"Eagle and America 250 Bookmark"
     },
-    "star-half-dollar":{
+    "b":{
         "status":"Production",
-        "available":4,
+        "available":5,
         "name":"Half Dollar Star Ornament"
     },
-    "star-quarter":{
+    "c":{
         "status":"Development",
         "available":0,
         "name":"Quarter Star Ornament"
     },
-    "crystals":{
+    "d":{
+        "status":"Production",
+        "available":1,
+        "name":"Purr Bookmark"
+    },
+    "e":{
+        "status":"Production",
+        "available":1,
+        "name":"Woof Bookmark"
+    },
+    "f":{
         "status":"in stock",
-        "available":"Unknown Quantity",
+        "available":"10+",
         "name":"Crystals"
     },
     "keys":[
-        "dime-bookmark",
-        "nickel-bookmark",
-        "dime-keychain",
-        "1776-2026-no-coin",
-        "stars-quarter",
-        "dime-keychain",
-        "nickel-keychain",
-        "stars-quarter-keychain",
-        "round-keychain-quarter",
-        "round-keychain-dime",
-        "star-half-dollar",
-        "star-quarter",
-        "crystals"
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9",
+       "a",
+       "b",
+       "c",
+       "d",
+       "e",
+       "f"
     ]
 }
