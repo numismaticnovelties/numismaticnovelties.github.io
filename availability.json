@@ -50,13 +50,13 @@
         "name":"Eagle and America 250 Bookmark"
     },
     "b":{
-        "status":"Production",
+        "status":"supply low",
         "available":5,
         "name":"Half Dollar Star Ornament"
     },
     "c":{
-        "status":"Development",
-        "available":0,
+        "status":"Production",
+        "available":3,
         "name":"Quarter Star Ornament"
     },
     "d":{
