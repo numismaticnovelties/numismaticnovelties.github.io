@@ -274,3 +274,13 @@ form{
 input{
     width:16em;
 }
+*[data-tooltip]::after{
+    display:none;
+    background-color: lightblue;
+    font-family:serif;
+    border:1px solid black;
+    border-radius: 10px;
+}
+body.not-written{
+    background-color: lightgray;
+}

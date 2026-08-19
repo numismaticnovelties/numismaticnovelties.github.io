@@ -26,21 +26,23 @@
     </header>
     <div id="content">
         <h1>Markets</h1>
+        <div id="marketCountdown">
         <h2>First Market Countdown</h2>
     <div id="countdown">
         <span class="big">Days</span> 
-      <span id="days">#</span>
+      <span id="days"></span>
       <span class="big">Hours</span>
-      <span id="hours">#</span>
+      <span id="hours"></span>
       <span class="big">Minutes</span>
-      <span id="minutes">#</span>
+      <span id="minutes"></span>
       <span class="big">Seconds</span>
-      <span id="seconds">#</span>
+      <span id="seconds"></span>
+    </div>
     </div>
     <table>
         <tr><th>Index</th><th>Location</th><th>Date & Time</th></tr>
-        <tr title="Market Number 1"><th>#1</th><td class="market"><a href="https://kidsmarkets-5f27b.kinsta.storage/tmsl327xmxg1l1had6tpoex5dyze">Leonard E. Merrell Center</a></td><td>August 22, 2026</td></tr>
-        <tr title="Market Number 2"><th>#2</th><td class="market"><a href="https://kidsmarkets-5f27b.kinsta.storage/3d7twg5g8jatv5ldlgthoz4ont3a">Venture Christian Church</a></td><td>August 23, 2026</td></tr>
+        <tr title="Market Number 1"><th>#1</th><td class="market"><a href="/markets/aug22Mark.html">Leonard E. Merrell Center</a></td><td>August 22, 2026</td></tr>
+        <tr title="Market Number 2"><th>#2</th><td class="market"><a href="/markets/aug23Mark.html">Venture Christian Church</a></td><td>August 23, 2026</td></tr>
     </table>
 </div>
     <script>
@@ -61,7 +63,6 @@
         const miliseconds = clock % 1000
         updateDisplay(months, days, hours, minutes, seconds, miliseconds);
       }
-
       function updateDisplay(months, days, hours, minutes, seconds, miliseconds) {
         let status = []
         document.getElementById("days").innerText = days;
@@ -90,7 +91,7 @@
         setInterval(updateCounter, 5);
       });
       function redirect() {
-        
+        document.getElementById('marketCountdown').hidden = true; 
       }
     </script>
     <script src="/navigation.js"></script>
