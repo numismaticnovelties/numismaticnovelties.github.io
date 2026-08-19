@@ -60,19 +60,14 @@
         "name":"Quarter Star Ornament"
     },
     "d":{
-        "status":"Production",
-        "available":1,
-        "name":"Purr Bookmark"
-    },
-    "e":{
-        "status":"Production",
-        "available":1,
-        "name":"Woof Bookmark"
-    },
-    "f":{
         "status":"in stock",
         "available":"10+",
         "name":"Crystals"
+    },
+    "e":{
+        "status":"Production",
+        "available":0,
+        "name":"3D Printed Cat"
     },
     "keys":[
        "1",
@@ -87,8 +82,6 @@
        "a",
        "b",
        "c",
-       "d",
-       "e",
-       "f"
+       "d"
     ]
 }
