@@ -2,72 +2,86 @@
     "1":{
         "status":"in stock",
         "available":19,
-        "name":"Emerging Liberty Dime and Eagle Bookmark"
+        "name":"Emerging Liberty Dime and Eagle Bookmark",
+        "price":2
     },
     "2":{
         "status":"supply low",
         "available":8,
-        "name":"Nickel Bookmark"
+        "name":"Nickel Bookmark",
+        "price":2
     },
     "3":{
         "status":"in stock",
         "available":15,
-        "name":"America 250 Bookmark without coin"
+        "name":"America 250 Bookmark without coin",
+        "price":1
     },
     "4":{
         "status":"supply low",
         "available":9,
-        "name":"Liberty Bell Quarter Bookmark"
+        "name":"Liberty Bell Quarter Bookmark",
+        "price":2
     },
     "5":{
         "status":"in stock",
         "available":10,
-        "name":"Emerging Liberty Dime and Eagle Keychain"
+        "name":"Emerging Liberty Dime and Eagle Keychain",
+        "price":2.50
     },
     "6":{
         "status":"in stock",
         "available":10,
-        "name":"Nickel Keychain"
+        "name":"Nickel Keychain",
+        "price":2.50
     },
     "7":{
         "status":"supply low",
         "available":9,
-        "name":"Liberty Bell Quarter Keychain"
+        "name":"Liberty Bell Quarter Keychain",
+        "price":2
     },
     "8":{
         "status":"in stock",
         "available":20,
-        "name":"Round Quarter Keychain"
+        "name":"Round Quarter Keychain",
+        "price":2
     },
     "9":{
         "status":"Development",
         "available":0,
-        "name":"Round Dime Keychain"
+        "name":"Round Dime Keychain",
+        "price":null
     },
     "a":{
         "status":"Development",
         "available":0,
-        "name":"Eagle and America 250 Bookmark"
+        "name":"Eagle and America 250 Bookmark",
+        "price":null
     },
     "b":{
         "status":"supply low",
         "available":5,
-        "name":"Half Dollar Star Ornament"
+        "name":"Half Dollar Star Ornament",
+        "price":4
     },
     "c":{
-        "status":"Production",
-        "available":3,
-        "name":"Quarter Star Ornament"
+        "status":"supply low",
+        "available":5,
+        "name":"Quarter Star Ornament",
+        "price":2
     },
     "d":{
         "status":"in stock",
         "available":"10+",
-        "name":"Crystals"
+        "name":"Crystals",
+        "price":null
     },
     "e":{
         "status":"Production",
         "available":0,
-        "name":"3D Printed Cat"
+        "name":"3D Printed Cat",
+        "price":3
     },
     "keys":[
        "1",
