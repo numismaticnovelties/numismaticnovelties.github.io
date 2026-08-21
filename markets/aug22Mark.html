@@ -28,7 +28,7 @@
         <h1 id="first-market">First Market</h1>
         <h2 id="facts">Facts</h2>
         <table>
-            <tr><th>Flyer</th><td><a href="https://kidsmarkets-5f27b.kinsta.storage/tmsl327xmxg1l1had6tpoex5dyze"><img src="https://kidsmarkets-5f27b.kinsta.storage/tmsl327xmxg1l1had6tpoex5dyze" alt=""></a></td></tr>
+            <tr><th>Flyer</th><td><a onclick="handleEVT();"><img src="https://kidsmarkets-5f27b.kinsta.storage/tmsl327xmxg1l1had6tpoex5dyze" alt=""></a></td></tr>
             <tr><th>Date</th><td>August 22, 2026</td></tr>
             <tr><th>Time</th><td>10:00 AM - 4:30 PM</td></tr>
             <tr><th>Address</th><td>Leonard E. Merrell Center <br>
@@ -40,6 +40,20 @@
         <a href="https://katyhomeandoutdoorlivingshow.com/">Event Website</a><br>
         Location: <iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13851.547145520917!2d-95.832153!3d29.780915000000004!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDQ2JzQ5LjYiTiA5NcKwNDknNTcuMyJX!5e0!3m2!1sen!2sus!4v1787100210269!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
     </div>
+    <script>
+        let viewer = false;
+        function handleEVT() {
+            if (!viewer){
+                viewer = window.open('https://kidsmarkets-5f27b.kinsta.storage/tmsl327xmxg1l1had6tpoex5dyze',
+                    "_blank","popup=true"
+                )
+            }else{
+                viewer.close();
+                viewer = false;
+
+            }
+        }
+    </script>
     <script src="navigation.js"></script>
 </body>
 </html>

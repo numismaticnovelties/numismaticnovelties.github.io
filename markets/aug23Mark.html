@@ -28,7 +28,7 @@
         <h1 id="second-market">Second Market</h1>
         <h2 id="facts">Facts</h2>
         <table>
-            <tr><th>Flyer</th><td><a href="https://kidsmarkets-5f27b.kinsta.storage/3d7twg5g8jatv5ldlgthoz4ont3a" target="_blank"><img src="https://kidsmarkets-5f27b.kinsta.storage/3d7twg5g8jatv5ldlgthoz4ont3a" alt=""></a></td></tr>
+            <tr><th>Flyer</th><td><a onclick="handleEVT()"><img src="https://kidsmarkets-5f27b.kinsta.storage/3d7twg5g8jatv5ldlgthoz4ont3a" alt=""></a></td></tr>
             <tr><th>Date</th><td>August 23, 2026</td></tr>
             <tr><th>Time</th><td>12:00 PM - 2:00 PM</td></tr>
             <tr><th>Address</th><td>Venture Christian Church<br>
@@ -38,6 +38,20 @@ Katy, Texas 77493</td></tr>
         <a href="https://kidsmarkets.com/markets/katy-12">Kidsmarkets website</a>
         <!-- <a href="">Event Website</a> -->
     </div>
+        <script>
+        let viewer = false;
+        function handleEVT() {
+            if (!viewer){
+                viewer = window.open('https://kidsmarkets-5f27b.kinsta.storage/3d7twg5g8jatv5ldlgthoz4ont3a',
+                    "_blank","popup=true"
+                )
+            }else{
+                viewer.close();
+                viewer = false;
+
+            }
+        }
+    </script>
     <script src="navigation.js"></script>
 </body>
 </html>
