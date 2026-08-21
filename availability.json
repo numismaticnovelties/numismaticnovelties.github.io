@@ -1,7 +1,7 @@
 {
     "1":{
         "status":"in stock",
-        "available":19,
+        "available":15,
         "name":"Emerging Liberty Dime and Eagle Bookmark",
         "price":2,
         "img":"/dime-bookmark.png"
@@ -22,21 +22,21 @@
     },
     "4":{
         "status":"supply low",
-        "available":9,
+        "available":7,
         "name":"Liberty Bell Quarter Bookmark",
         "price":2,
         "img":"/liberty bell quarter.jpeg"
     },
     "5":{
-        "status":"in stock",
-        "available":10,
+        "status":"Production",
+        "available":3,
         "name":"Emerging Liberty Dime and Eagle Keychain",
         "price":2.50,
         "img":"/dime-keychain.png"
     },
     "6":{
-        "status":"in stock",
-        "available":10,
+        "status":"supply low",
+        "available":7,
         "name":"Nickel Keychain",
         "price":2.50,
         "img":"/nickel-keychain.png"
@@ -50,7 +50,7 @@
     },
     "8":{
         "status":"in stock",
-        "available":20,
+        "available":12,
         "name":"Round Quarter Keychain",
         "price":2
     },
