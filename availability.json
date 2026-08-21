@@ -58,19 +58,19 @@
         "status":"Development",
         "available":0,
         "name":"Round Dime Keychain",
-        "price":null
+        "price":2.5
     },
     "a":{
         "status":"Development",
         "available":0,
         "name":"Eagle and America 250 Bookmark",
-        "price":null
+        "price":2
     },
     "b":{
         "status":"supply low",
         "available":5,
         "name":"Half Dollar Star Ornament",
-        "price":4
+        "price":3
     },
     "c":{
         "status":"supply low",
@@ -86,7 +86,7 @@
     },
     "e":{
         "status":"Production",
-        "available":0,
+        "available":3,
         "name":"3D Printed Cat",
         "price":3
     },

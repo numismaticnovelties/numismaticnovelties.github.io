@@ -21,3 +21,24 @@ let ready = false;
                 ready=true;
                 document.getElementById('nav').innerHTML = data;
             }
+
+//Custom error image
+let imageData = [window];
+Array.from(document.getElementsByTagName('img')).forEach((image,index)=>{
+    imageData.push(null);
+    image.addEventListener("error",(evt)=>{
+        evt.target.src = "/placeholder.jpg";
+        evt.target.onerror = null;
+    })
+    image.dataset.status = "closed";
+    image.addEventListener("click",()=>{
+        if (image.dataset.status == "closed"){
+            imageData[index] = window.open(image.src, 'popupWindow', 'width=600,height=400,scrollbars=yes');   
+            image.dataset.status = "open"
+        }else{
+            imageData[index].close();
+            imageData[index] = null;
+            image.dataset.status= "closed";
+        }
+    })
+})
