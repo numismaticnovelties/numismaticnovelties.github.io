@@ -25,6 +25,7 @@ let ready = false;
 //Custom error image
 let imageData = [window];
 Array.from(document.getElementsByTagName('img')).forEach((image,index)=>{
+    if (image.src.includes('menu.png'))return;
     imageData.push(null);
     image.addEventListener("error",(evt)=>{
         evt.target.src = "/placeholder.jpg";
