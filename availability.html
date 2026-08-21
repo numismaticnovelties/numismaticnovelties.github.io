@@ -28,7 +28,7 @@
     <div id="content">
         <h1>Availability</h1>
         <table id="table">
-            <tr><th>Product</th><th>Status</th><th>Availability</th></tr>
+            <tr><th>Product</th><th>Status</th><th>Availability</th><th>Sale Price</th></tr>
         </table>
         <script>
             let data2;
@@ -54,7 +54,7 @@
                 data2.keys.forEach((value)=>{
                     let row = document.createElement('tr');
                     let item = data2[value];
-                    row.innerHTML = `<th>${item.name}</th><td data-status="${item.status}">${item.status}</td><td>${item.available}</td>`;
+                    row.innerHTML = `<th style="background-image:url(${item.img})">${item.name}</th><td data-status="${item.status}">${item.status}</td><td>${item.available}</td><td><price>${item.price}</price></td>`;
                     document.getElementById('table').appendChild(row);
                 })
             }
