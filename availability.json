@@ -3,43 +3,50 @@
         "status":"in stock",
         "available":19,
         "name":"Emerging Liberty Dime and Eagle Bookmark",
-        "price":2
+        "price":2,
+        "img":"/dime-bookmark.png"
     },
     "2":{
         "status":"supply low",
         "available":8,
         "name":"Nickel Bookmark",
-        "price":2
+        "price":2,
+        "img":"/nickel-bookmark.png"
     },
     "3":{
         "status":"in stock",
         "available":15,
         "name":"America 250 Bookmark without coin",
-        "price":1
+        "price":1,
+        "img":"/1776 2026 America.jpeg"
     },
     "4":{
         "status":"supply low",
         "available":9,
         "name":"Liberty Bell Quarter Bookmark",
-        "price":2
+        "price":2,
+        "img":"/liberty bell quarter.jpeg"
     },
     "5":{
         "status":"in stock",
         "available":10,
         "name":"Emerging Liberty Dime and Eagle Keychain",
-        "price":2.50
+        "price":2.50,
+        "img":"/dime-keychain.png"
     },
     "6":{
         "status":"in stock",
         "available":10,
         "name":"Nickel Keychain",
-        "price":2.50
+        "price":2.50,
+        "img":"/nickel-keychain.png"
     },
     "7":{
         "status":"supply low",
         "available":9,
         "name":"Liberty Bell Quarter Keychain",
-        "price":2
+        "price":2,
+        "img":"/liberty bell quarter.jpeg"
     },
     "8":{
         "status":"in stock",
