@@ -177,7 +177,7 @@ th{
 th:first-child{
     width:350px;
 }
-td[data-status]:hover::after,td[data-status]:active:after{
+td[data-status]:hover::after,td[data-status]:focus:after{
     opacity:1;
 }
 td[data-status="in stock"]::after{
@@ -281,6 +281,7 @@ input{
     border:1px solid black;
     border-radius: 10px;
     position:absolute;
+    content:attr(data-tooltip)
 }
 body.not-written{
     background-color: lightgray;

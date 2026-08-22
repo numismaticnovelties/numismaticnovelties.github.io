@@ -43,3 +43,6 @@ Array.from(document.getElementsByTagName('img')).forEach((image,index)=>{
         }
     })
 })
+document.querySelectorAll('td[data-status]').forEach((el)=>{
+    el.setAttribute('tabindex',"0");
+})

@@ -25,28 +25,28 @@
         "available":7,
         "name":"Liberty Bell Quarter Bookmark",
         "price":2,
-        "img":"/liberty%20bell quarter.jpeg"
+        "img":"/liberty%20bell%20quarter.jpeg"
     },
     "5":{
         "status":"Production",
         "available":3,
         "name":"Emerging Liberty Dime and Eagle Keychain",
         "price":2.50,
-        "img":"/dime keychain.png"
+        "img":"/dime%20keychain.png"
     },
     "6":{
         "status":"supply low",
         "available":7,
         "name":"Nickel Keychain",
         "price":2.50,
-        "img":"/nickel keychain.png"
+        "img":"/nickel%20keychain.png"
     },
     "7":{
         "status":"supply low",
         "available":9,
         "name":"Liberty Bell Quarter Keychain",
         "price":2,
-        "img":"/liberty bell quarter.jpeg"
+        "img":"/liberty%20bell%20quarter.jpeg"
     },
     "8":{
         "status":"in stock",
@@ -58,7 +58,7 @@
         "status":"Development",
         "available":0,
         "name":"Round Dime Keychain",
-        "price":2.5
+        "price":2
     },
     "a":{
         "status":"Development",
@@ -70,21 +70,15 @@
         "status":"supply low",
         "available":5,
         "name":"Half Dollar Star Ornament",
-        "price":3
+        "price":9
     },
     "c":{
         "status":"supply low",
         "available":5,
         "name":"Quarter Star Ornament",
-        "price":2
+        "price":8
     },
     "d":{
-        "status":"in stock",
-        "available":"10+",
-        "name":"Crystals",
-        "price":null
-    },
-    "e":{
         "status":"Production",
         "available":3,
         "name":"3D Printed Cat",
