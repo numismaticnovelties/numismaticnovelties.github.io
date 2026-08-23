@@ -70,13 +70,13 @@
         "status":"supply low",
         "available":6,
         "name":"Half Dollar Star Ornament",
-        "price":9
+        "price":4
     },
     "c":{
         "status":"supply low",
         "available":6,
         "name":"Quarter Star Ornament",
-        "price":8
+        "price":2
     },
     "d":{
         "status":"Production",

@@ -177,6 +177,17 @@ th{
 th:first-child{
     width:350px;
 }
+td[data-status="sold out"]::after{
+    position:absolute;
+    pointer-events: none;
+    z-index: 10;
+    content:"Sorry, this product is not available currently but will be restocked soon!";
+    width:fit-content;
+    white-space:nowrap;
+    background-color: lightgreen;
+    opacity:0;
+    transition:opacity 1s ease;
+}
 td[data-status]:hover::after,td[data-status]:focus:after{
     opacity:1;
 }
