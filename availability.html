@@ -46,10 +46,10 @@
             return;
             }
             data2 = JSON.parse(text); // Parse manually
-            display(data2);
+            displayAvailability(data2);
             })
             .catch(error => console.error('Fetch error:', error));
-            function display(fetchedData){
+            function displayAvailability(fetchedData){
                 data2 = fetchedData;
                 data2.keys.forEach((value)=>{
                     let row = document.createElement('tr');

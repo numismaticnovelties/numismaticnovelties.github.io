@@ -1,56 +1,56 @@
 {
     "1":{
         "status":"in stock",
-        "available":15,
+        "available":16,
         "name":"Emerging Liberty Dime and Eagle Bookmark",
         "price":2,
         "img":"/dime%20bookmark.png"
     },
     "2":{
         "status":"supply low",
-        "available":8,
+        "available":3,
         "name":"Nickel Bookmark",
         "price":2,
         "img":"/nickel%20bookmark.png"
     },
     "3":{
         "status":"in stock",
-        "available":15,
+        "available":14,
         "name":"America 250 Bookmark without coin",
         "price":1,
         "img":"/1776%202026%20America.jpeg"
     },
     "4":{
         "status":"supply low",
-        "available":7,
+        "available":5,
         "name":"Liberty Bell Quarter Bookmark",
         "price":2,
         "img":"/liberty%20bell%20quarter.jpeg"
     },
     "5":{
-        "status":"Production",
-        "available":3,
+        "status":"in stock",
+        "available":8,
         "name":"Emerging Liberty Dime and Eagle Keychain",
         "price":2.50,
         "img":"/dime%20keychain.png"
     },
     "6":{
         "status":"supply low",
-        "available":7,
+        "available":6,
         "name":"Nickel Keychain",
         "price":2.50,
         "img":"/nickel%20keychain.png"
     },
     "7":{
         "status":"supply low",
-        "available":9,
+        "available":6,
         "name":"Liberty Bell Quarter Keychain",
         "price":2,
         "img":"/liberty%20bell%20quarter.jpeg"
     },
     "8":{
         "status":"in stock",
-        "available":12,
+        "available":15,
         "name":"Round Quarter Keychain",
         "price":2
     },
@@ -68,19 +68,19 @@
     },
     "b":{
         "status":"supply low",
-        "available":5,
+        "available":6,
         "name":"Half Dollar Star Ornament",
         "price":9
     },
     "c":{
         "status":"supply low",
-        "available":5,
+        "available":6,
         "name":"Quarter Star Ornament",
         "price":8
     },
     "d":{
         "status":"Production",
-        "available":3,
+        "available":4,
         "name":"3D Printed Cat",
         "price":3
     },

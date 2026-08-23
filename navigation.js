@@ -25,7 +25,7 @@ let ready = false;
 //Custom error image
 let imageData = [window];
 Array.from(document.getElementsByTagName('img')).forEach((image,index)=>{
-    if (image.src.includes('menu.png'))return;
+    if (image.src.includes('menu.png')||image.src.includes('logo'))return;
     imageData.push(null);
     image.addEventListener("error",(evt)=>{
         evt.target.src = "/placeholder.jpg";
@@ -43,6 +43,8 @@ Array.from(document.getElementsByTagName('img')).forEach((image,index)=>{
         }
     })
 })
-document.querySelectorAll('td[data-status]').forEach((el)=>{
+setInterval(() => {
+    document.querySelectorAll('td[data-status]').forEach((el)=>{
     el.setAttribute('tabindex',"0");
 })
+}, 500);
