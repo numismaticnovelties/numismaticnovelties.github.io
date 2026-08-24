@@ -26,74 +26,14 @@
     </header>
     <div id="content">
         <h1>Markets</h1>
-        <div id="marketCountdown">
-        <h2>First Market Countdown</h2>
-    <div id="countdown">
-        <span class="big">Days</span> 
-      <span id="days"></span>
-      <span class="big">Hours</span>
-      <span id="hours"></span>
-      <span class="big">Minutes</span>
-      <span id="minutes"></span>
-      <span class="big">Seconds</span>
-      <span id="seconds"></span>
-    </div>
-    </div>
+        <p>Next markets coming in October and November</p>
+        <h2>Past Markets:</h2>
     <table>
         <tr><th>Index</th><th>Location</th><th>Date & Time</th></tr>
-        <tr title="Market Number 1"><th>#1</th><td class="market"><a href="/markets/aug23Mark.html">Venture Christian Church</a></td><td>August 23, 2026</td></tr>
         <tr title="Past Market 1"><th>Past Market</th><td class="market"><a href="/past-markets/aug22Mark.html">Leonard E. Merrell Center</a></td><td>August 22, 2026</td></tr>
-    </table>
+        <tr title="Past Market 2"><th>Past Market</th><td class="market"><a href="/past-markets/aug23Mark.html">Venture Christian Church</a></td><td>August 23, 2026</td></tr>
+      </table>
 </div>
-    <script>
-    const endDate = new Date("2026-08-213T11:00-06:00");
-
-      function updateCounter() {
-        const clock = endDate - new Date();
-        if (clock < 0){
-			setTimeout(redirect(),1000)
-             return;
-            }
-
-        const months = Math.floor(clock / (1000 * 60 * 60 * 24 * 30.5));
-        const days = Math.floor(clock / (1000 * 60 * 60 * 24));
-        const hours = Math.floor((clock / (1000 * 60 * 60)) % 24);
-        const minutes = Math.floor((clock / 1000 / 60) % 60);
-        const seconds = Math.floor((clock / 1000) % 60);
-        const miliseconds = clock % 1000
-        updateDisplay(months, days, hours, minutes, seconds, miliseconds);
-      }
-      function updateDisplay(months, days, hours, minutes, seconds, miliseconds) {
-        let status = []
-        document.getElementById("days").innerText = days;
-        status.push("days:", days);
-        document.getElementById("hours").innerText = hours;
-        status.push("hours:", hours);
-        if (minutes == 0){
-          document.getElementById('hours').style.animation =  "none";
-          setTimeout(() => {
-            document.getElementById('hours').style.animation =  "spin 1s forwards";
-          }, 10);
-        }
-        document.getElementById("minutes").innerText = minutes;
-        status.push("Minutes:", minutes);
-        if (seconds == 0){
-          document.getElementById('minutes').style.animation =  "none";
-          setTimeout(() => {
-            document.getElementById('minutes').style.animation =  "spin 1s forwards";
-          }, 10);
-        }
-        document.getElementById("seconds").innerText = seconds;
-        status.push("seconds:", seconds);
-      }
-
-      window.addEventListener("DOMContentLoaded", () => {
-        setInterval(updateCounter, 5);
-      });
-      function redirect() {
-        document.getElementById('marketCountdown').hidden = true; 
-      }
-    </script>
     <script src="/navigation.js"></script>
 </body>
 </html>
