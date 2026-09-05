@@ -235,6 +235,26 @@ td[data-status="Development"]::after{
     opacity:0;
     transition:opacity 1s ease;
 }
+tr[title^="Past Market"]{
+    td{
+        background-color:lightgray;
+    }
+    th{
+        background-color: lightgray;
+    }
+    *::after{
+        content:"This market has already occured";
+        background-color: rgb(73, 73, 73);
+        color:white;
+        position:absolute;
+        display: block;
+        opacity:0;
+        transition:0.4s ease opacity;
+    }
+    *:hover::after{
+        opacity:1;
+    }
+}
 .big+*{
     font-size: large;
     position:relative;

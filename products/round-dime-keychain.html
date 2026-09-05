@@ -4,13 +4,13 @@
     <base href="/">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markets | Niko's Numismatic Novelties</title>
+    <title>Products | Niko's Numismatic Novelties</title>
     <link rel="shortcut icon" href="NNN logo.jpeg" type="image/jpeg">
     <link rel="icon" href="NNN logo.jpeg" type="image/jpeg">
     <link rel="apple-touch-icon" href="NNN logo.jpeg" type="image/jpeg">
     <link rel="stylesheet" href="style1.css">
     <meta name="keywords" content="coins,bookmarks,keychains">
-    <meta name="description" content="Find where Niko's Numismatic Novelties will be selling coin-themed items.">
+    <meta name="description" content="Niko's Numismatic Novelties is a small business that produces products featuring coins.">
 </head>
 <body>
     <header id="nav">
@@ -25,16 +25,22 @@
         </nav>
     </header>
     <div id="content">
-        <h1>Markets</h1>
-    <table>
-        <tr><th>Index</th><th>Location</th><th>Date & Time</th></tr>
-        <tr title="Market 1"><th>#1</th><td class="market"><a href="/markets/oct4Mark.html">The Dryer</a></td><td>October 4, 2026</td></tr>
-        <tr title="Market 2"><th>#1</th><td class="market"><a href="/markets/oct24Mark.html">Victory 1 Sports Center</a></td><td>October 24, 2026</td></tr>
-        <!--Past Markets-->
-        <tr title="Past Market 1"><th>Past Market</th><td class="market"><a href="/past-markets/aug22Mark.html">Leonard E. Merrell Center</a></td><td>August 22, 2026</td></tr>
-        <tr title="Past Market 2"><th>Past Market</th><td class="market"><a href="/past-markets/aug23Mark.html">Venture Christian Church</a></td><td>August 23, 2026</td></tr>
-      </table>
-</div>
+        <h1>Round Dime Keychains</h1>
+        <table>
+            <tr><th>Status</th><td data-status="Production" id="status">Production</td></tr>
+            <tr><th>Quantity</th><td id="quantity">12</td></tr>
+        </table>
+        <script>
+            fetch('/availability.json').then((response)=>{
+                return response.json();
+            }).then((json)=>{
+                const statusData = JSON.parse(json);
+                document.getElementById('status').innerHTML = statusData[9].status;
+                document.getElementById('status').dataset.status = statusData[9].status;
+                document.getElementById('quantity').innerHTML = statusData[9].available;
+            })
+        </script>
+    </div>
     <script src="/navigation.js"></script>
 </body>
 </html>

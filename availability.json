@@ -52,13 +52,19 @@
         "status":"in stock",
         "available":15,
         "name":"Round Quarter Keychain",
-        "price":2
+        "price":2.5
     },
     "9":{
-        "status":"Development",
-        "available":0,
+        "status":"Production",
+        "available":11,
         "name":"Round Dime Keychain",
-        "price":2
+        "price":2.5
+    },
+    "10":{
+      "status":"Development",
+      "available":0,
+      "name":"Round Nickel Keychain",
+      "price":2.5
     },
     "a":{
         "status":"Development",
